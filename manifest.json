@@ -4,6 +4,6 @@
   "version": "0.9.8.4",
 
   "chrome_url_overrides" : {
-   "newtab": "sports-stats.html"
+   "newtab": "src/sports-stats.html"
  }
 }
