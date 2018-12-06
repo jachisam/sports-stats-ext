@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+  <title>My Dashboard</title>
+
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin" rel="stylesheet" type="text/css">
+  <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Core stylesheets -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/pixeladmin.min.css" rel="stylesheet" type="text/css">
+  <link href="css/widgets.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Theme -->
+  <link href="css/themes/clean.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Pace.js -->
+  <script src="pace/pace.min.js"></script>
+
+  <style>
+
+
+  #dropList{
+    width : 500px;
+    height: 700px;
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    border-radius: 12px;
+    float : left;
+    margin-left: 5px;
+    text-align: center;
+  }
+
+   #dropList2{
+    width : 500px;
+    height: 300px;
+    margin-top :10px;
+    margin-left:10px;
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    border-radius: 12px;
+    float : left;
+    text-align: center;
+  }
+
+.button {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  float:right;
+}
+
+
+</style>
+
+<script>
+  function cacheLoad (){
+      if (localStorage.getItem("cacheCheck") != "true" && localStorage.getItem("length") >0 ){
+        window.location = "dashV3.html";
+  }
+  localStorage.setItem("cacheCheck", "false"); 
+  }
+
+cacheLoad();
+</script>
+</head>
+<body>
+  <!-- Nav -->
+
+
+  <!-- Navbar -->
+  <nav class="navbar px-navbar">
+    <div class="navbar-header" style= "background : #4682B4;">
+      <a class="navbar-brand" href="#">My Sports Dashboard</a>
+    </div>
+  </nav>
+
+ 
+  <!-- Content -->
+  <div class="px-content">
+	<!-- Messages widget -->
+
+        <div style="width: 230px; height: 700px; border: 1px solid black; padding: 14px; overflow-y: scroll; float:left">
+          <div class="panel-heading">
+            <span class="panel-title">NHL</span>
+          </div>
+  
+<p id="ducks" draggable="true" ondragstart="dragstart_handler(event);">Anaheim Ducks</p>
+<p id="coyotes" draggable="true" ondragstart="dragstart_handler(event);">Arizona Coyotes</p>
+<p id="bruins" draggable="true" ondragstart="dragstart_handler(event);">Boston Bruins</p>
+<p id="sabres" draggable="true" ondragstart="dragstart_handler(event);">Buffalo Sabres</p>
+<p id="flames" draggable="true" ondragstart="dragstart_handler(event);">Calgary Flames</p>
+<p id="hurricanes" draggable="true" ondragstart="dragstart_handler(event);">Carolina Hurricanes</p>
+<p id="blackhawks" draggable="true" ondragstart="dragstart_handler(event);">Chicago Blackhawks</p>
+<p id="avalanche" draggable="true" ondragstart="dragstart_handler(event);">Colorado Avalanche</p>
+<p id="bluejackets" draggable="true" ondragstart="dragstart_handler(event);">Columbus Blue Jackets</p>
+<p id="stars" draggable="true" ondragstart="dragstart_handler(event);">Dallas Stars</p>
+<p id="redwings" draggable="true" ondragstart="dragstart_handler(event);">Detroit Red Wings</p>
+<p id="oilers" draggable="true" ondragstart="dragstart_handler(event);">Edmonton Oilers</p>
+<p id="panthers" draggable="true" ondragstart="dragstart_handler(event);">Florida Panthers</p>
+<p id="kings" draggable="true" ondragstart="dragstart_handler(event);">Los Angeles Kings</p>
+<p id="wild" draggable="true" ondragstart="dragstart_handler(event);">Minnesota Wild</p>
+<p id="canadiens" draggable="true" ondragstart="dragstart_handler(event);">Montreal Canadiens</p>
+<p id="predators" draggable="true" ondragstart="dragstart_handler(event);">Nashville Predators</p>
+<p id="devils" draggable="true" ondragstart="dragstart_handler(event);">New Jersey Devils</p>
+<p id="islanders" draggable="true" ondragstart="dragstart_handler(event);">New York Islanders</p>
+<p id="rangers" draggable="true" ondragstart="dragstart_handler(event);">New York Rangers</p>
+<p id="senators" draggable="true" ondragstart="dragstart_handler(event);">Ottawa Senators</p>
+<p id="flyers" draggable="true" ondragstart="dragstart_handler(event);">Philadelphia Flyers</p>
+<p id="penguins" draggable="true" ondragstart="dragstart_handler(event);">Pittsburgh Penguins</p>
+<p id="sharks" draggable="true" ondragstart="dragstart_handler(event);">San Jose Sharks</p>
+<p id="blues" draggable="true" ondragstart="dragstart_handler(event);">St. Louis Blues</p>
+<p id="lightning" draggable="true" ondragstart="dragstart_handler(event);">Tampa Bay Lightning</p>
+<p id="leafs" draggable="true" ondragstart="dragstart_handler(event);">Toronto Maple Leafs</p>
+<p id="canucks" draggable="true" ondragstart="dragstart_handler(event);">Vancouver Canucks</p>
+<p id="knights" draggable="true" ondragstart="dragstart_handler(event);">Vegas Golden Knights</p>
+<p id="capitals" draggable="true" ondragstart="dragstart_handler(event);">Washington Capitals</p>
+<p id="jets" draggable="true" ondragstart="dragstart_handler(event);">Winnipeg Jets</p>
+
+</div>
+
+
+
+
+<div id="dropList" ondrop="drop_handler(event);" ondragover="dragover_handler(event);">Drop your Teams</div>
+        <!-- / Messages widget -->
+
+        <div style="width: 500px; height: 300px; border: 1px solid black; margin-left: 10px; padding: 10px; float:left">
+          <div class="panel-heading">
+            <span class="panel-title"><center>Information</center></span>
+          </div>
+  
+<p id="recentDrag" draggable="true" ondragstart="dragstart_handler(event);">Recent Games</p>
+<p id="standingDrag" draggable="true" ondragstart="dragstart_handler(event);">Standings</p>
+<p id="newsDrag" draggable="true" ondragstart="dragstart_handler(event);">News</p>
+<p id="keyStatsDrag" draggable="true" ondragstart="dragstart_handler(event);">Key Stats</p>
+<p id="twitterDrag" draggable="true" ondragstart="dragstart_handler(event);">Twitter</p>
+<p id="rosterDrag" draggable="true" ondragstart="dragstart_handler(event);">Roster</p>
+
+
+</div>
+
+ <div id="dropList2" ondrop="drop_handler(event);" ondragover="dragover_handler(event);">Drop your Choices</div>
+
+</div>
+
+
+
+  <!-- Footer -->
+  <footer class="px-footer px-footer-bottom">
+ <button class="button" onClick="redirects()">Submit</button>
+  </footer>
+
+  <!-- ==============================================================================
+  |
+  |  SCRIPTS
+  |
+  =============================================================================== -->
+
+
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+
+  <!-- Core scripts -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/pixeladmin.min.js"></script>
+
+  <!-- Your scripts -->
+  <script src="js/app.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

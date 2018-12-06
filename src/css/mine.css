@@ -1,0 +1,336 @@
+#myBody {
+    background:rgba(255,255,255,0.5);
+    background-size:     50%;                      
+    background-repeat:   no-repeat;
+    background-position: center center;   
+
+
+}
+
+
+.nav-tabs {
+  /*background-color: #696969;*/
+  /* border-bottom: 17px solid green;*/
+}
+.nav-tabs > li > a:hover{
+  background-color: #2F4F4F !important;
+    color:#ffffff !important;
+}
+.nav-tabs > li > a{
+  background-color: #C0C0C0;
+  color: #FFFFFF !important;
+    /*padding: 8px 16px;*/
+    margin:0;
+    margin-right: -4px;
+    border-bottom: 0 !important;
+}
+
+#ducks.active a {
+    background-color: #FC4C02 !important;
+    color: #111111 !important;
+}
+
+#coyotes.active a {
+    background-color: #8C2633 !important;
+    color: #DDCBA4 !important;
+}
+
+#bruins.active a {
+    background-color: #FFB81C !important;
+    color: #000000 !important;
+}
+
+#sabres.active a {
+    background-color: #041E42 !important;
+    color: #FFB81C !important;
+}
+
+#flames.active a {
+    background-color: #C8102E !important;
+    color: #F1BE48 !important;
+}
+
+#hurricanes.active a {
+    background-color: #CC0000 !important;
+    color: #000000 !important;
+}
+
+#blackhawks.active a {
+    background-color: #FF671B !important;
+    color: #00843D !important;
+}
+
+#avalanche.active a {
+    background-color: #6F263D !important;
+    color: #A2AAAD !important;
+}
+
+#bluejackets.active a {
+    background-color: #041E42 !important;
+    color: #A2AAAD !important;
+}
+
+#stars.active a {
+    background-color: #006341 !important;
+    color: #D3D3D3 !important;
+}
+
+#redwings.active a {
+    background-color: #C8102E !important;
+    color: #FFFFFF !important;
+}
+
+#oilers.active a {
+    background-color: #041E42 !important;
+    color: #FC4C02 !important;
+}
+
+#panthers.active a {
+    background-color: #041E42 !important;
+    color: #C8102E !important;
+}
+
+#kings.active a {
+    background-color: #000000 !important;
+    color: #A2AAAD !important;
+}
+
+#wild.active a {
+    background-color: #154734 !important;
+    color: #EAAA00 !important;
+}
+
+#canadiens.active a {
+    background-color: #A6192E !important;
+    color: #001E62 !important;
+}
+
+#predators.active a {
+    background-color: #FFB81C !important;
+    color: #041E42 !important;
+}
+
+#devils.active a {
+    background-color: #C8102E !important;
+    color: #000000 !important;
+}
+
+#islanders.active a {
+    background-color: #00468B !important;
+    color: #F26924 !important;
+}
+
+#rangers.active a {
+    background-color: #0038A8 !important;
+    color: #C8102E !important;
+}
+
+#senators.active a {
+    background-color: #C8102E !important;
+    color: #111111 !important;
+}
+
+#flyers.active a {
+    background-color: #FA4616 !important;
+    color: #000000 !important;
+}
+
+#penguins.active a {
+    background-color: #000000 !important;
+    color: #FFB81C !important;
+}
+
+#sharks.active a {
+    background-color: #006272 !important;
+    color: #E57200 !important;
+}
+
+#blues.active a {
+    background-color: #003087 !important;
+    color: #FFB81C !important;
+}
+
+#lightning.active a {
+    background-color: #00205B !important;
+    color: #FFFFFF !important;
+}
+
+#leafs.active a {
+    background-color: #00205B !important;
+    color: #00843D !important;
+}
+
+#canucks.active a {
+    background-color: #00205B !important;
+    color: #97999B !important;
+}
+
+#knights.active a {
+    background-color: #B9975B !important;
+    color: #333F48 !important;
+}
+
+#capitals.active a {
+    background-color: #041E42 !important;
+    color: #C8102E !important;
+}
+
+#jets.active a {
+    background-color: #004C97 !important;
+    color: #A2AAAD !important;
+}
+
+
+
+
+
+#Diamondbacks.active a {
+    background-color: #E3D4AD !important;
+    color: #A71930 !important;
+}
+
+#Braves.active a {
+    background-color: #0C2340 !important;
+    color: #BA0C2F !important;
+}
+
+#Orioles.active a {
+    background-color: #FC4C02 !important;
+    color: #000000 !important;
+}
+
+#RedSox.active a {
+    background-color: #C8102E !important;
+    color: #0C2340 !important;
+}
+
+#Cubs.active a {
+    background-color: #002F6C !important;
+    color: #C8102E !important;
+}
+
+#WhiteSox.active a {
+    background-color: #8A8D8F !important;
+    color: #27251F !important;
+}
+
+#Reds.active a {
+    background-color: #D50032 !important;
+    color: #ffffff !important;
+}
+
+#Indians.active a {
+    background-color: #0C2340 !important;
+    color: #D50032 !important;
+}
+
+#Rockies.active a {
+    background-color: #C4CED4 !important;
+    color: #330072 !important;
+}
+
+#Tigers.active a {
+    background-color: #FA4616 !important;
+    color: #0C2340 !important;
+}
+
+#Marlins.active a {
+    background-color: #0077C8 !important;
+    color: #ED6F2E !important;
+}
+
+#Astros.active a {
+    background-color: #002D62 !important;
+    color: #EB6E1F !important;
+}
+
+#Royals.active a {
+    background-color: #7AB2DD !important;
+    color: #004687 !important;
+}
+
+#AngelsofAnaheim.active a {
+    background-color: #004C97 !important;
+    color: #A2AAAD !important;
+}
+
+#Dodgers.active a {
+    background-color: #003263 !important;
+    color: #ffffff !important;
+}
+
+#Brewers.active a {
+    background-color: #13294B !important;
+    color: #ffffff !important;
+}
+
+#Twins.active a {
+    background-color: #0C2340 !important;
+    color: #BA0C2F !important;
+}
+
+#Mets.active a {
+    background-color: #002D72 !important;
+    color: #FC4C02 !important;
+}
+
+#Yankees.active a {
+    background-color: #003087 !important;
+    color: #E4002C !important;
+}
+
+#Athletics.active a {
+    background-color: #034638 !important;
+    color: #FFB81C !important;
+}
+
+#Phillies.active a {
+    background-color: #BA0C2F !important;
+    color: #003087 !important;
+}
+
+#Pirates.active a {
+    background-color: #FFC72C !important;
+    color: #27251F !important;
+}
+
+#Cardinals.active a {
+    background-color: #BA0C2F !important;
+    color: #0C2340 !important;
+}
+
+#Padres.active a {
+    background-color: #A2AAAD !important;
+    color: #041E42 !important;
+}
+
+#Giants.active a {
+    background-color: #FA4616 !important;
+    color: #27251F !important;
+}
+
+#Mariners.active a {
+    background-color: #00685E !important;
+    color: #0C2340 !important;
+}
+
+#Rays.active a {
+    background-color: #092C5C !important;
+    color: #F5D130 !important;
+}
+
+#Rangers.active a {
+    background-color: #003278 !important;
+    color: #C0111F !important;
+}
+
+#BlueJays.active a {
+    background-color: #134A8E !important;
+    color: #E8291C !important;
+}
+
+#Nationals.active a {
+    background-color: #BA122B !important;
+    color: #14225A !important;
+}
+

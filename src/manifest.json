@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "name": "Sports Stats Extension",
+  "version": "0.9.8.4",
+
+  "permissions": [
+		"storage",
+    "activeTab",
+    "tabs",
+    "topSites",
+		"https://twitter.com/*",
+    "http://*/*",
+    "https://*/*",
+    "<all_urls>",
+    "https://twitter.com/stlouisblues",
+    "https://platform.twitter.com/widgets.js"
+	],
+
+"background": {
+  "scripts": [
+    "html_starter/pace/pace.min.js",
+    "html_starter/js/bootstrap.min.js",
+    "html_starter/js/app.js",
+    "html_starter/js/pixeladmin.min.js",
+    "html_starter/js/jquery.min.js",
+    "html_starter/js/scripts.js"
+  ]
+  },
+
+ "content_security_policy":"script-src 'self' 'sha256-8FdKaM9HpAUcEXtfo9v1xVX9w0J+WnBZ+JJQ0cMURhM='; style-src 'self' 'unsafe-inline'; object-src 'self'",
+
+
+  "chrome_url_overrides" : {
+   "newtab": "html_starter/customization%20page.html"
+ }
+
+
+ }
